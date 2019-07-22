@@ -5,8 +5,7 @@ import sys
 import json
 
 def getLastDate():
-    response = requests.get("https://api.spycloud.io/enterprise-v1/watchlist/identifiers/?watchlist_type=domain&verified=yes",
-                            headers={'X-Api-Key': apikey})
+    response = requests.get("https://api.spycloud.io/enterprise-v1/watchlist/identifiers/?watchlist_type=domain&verified=yes",headers={'X-Api-Key': apikey})
     output = response.json()
     #print output
     l=[]
