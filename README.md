@@ -1,2 +1,2 @@
 # spycloud
-Spycloud sample scripts
+Spycloud sample python scripts
