@@ -26,7 +26,7 @@ def iterateSpyCloud(cursor):
         print e.message
         print("NOK")
 
-#please update <apikey> 
+#please update <apikey Spycloudv2 API key> 
 apikey='<apikey>'
 cfgfile='/opt/splunk/bin/scripts/spycloud.ini'
 Config = ConfigParser.SafeConfigParser()
